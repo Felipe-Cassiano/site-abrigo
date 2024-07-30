@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABRIGO</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    
+
     <!-- Barra de Navegação -->
     <nav>
         <img src="./imgs/logo -abrigo.jpeg" alt="Logo">
 
         <ul>
-            <li>Nossa Missão</li>
-            <li>Nossos Pastores</li>
-            <li>Links</li>
+            <li><a href="#nossa-missao">Nossa Missão</a></li>
+            <li><a href="#nossos-pastores">Nossos Pastores</a></li>
+            <li><a href="#footer">Links</a></li>
         </ul>
     </nav>
     <!-- ---------------------------------------------- -->
@@ -32,62 +34,112 @@
     <!-- ---------------------------------------------- -->
 
     <!-- O que fazemos -->
-     <section id="oque-fazemos">
+    <section id="nossa-missao">
         <h1>Nossa Missão</h1>
         <p>Conheça um pouco sobre nossos objetivos e valores</p>
 
-        <div class="oque-fazemos-item">
-            <img src="" alt="">
-            <h3></h3>
-            <p></p>
-        </div>
+        <div class="nossa-missao-itens">
+            <div class="nossa-missao-item">
+                <img src="" alt="">
+                <h3>Tópico 1</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore neque adipisci molestias architecto
+                    maiores sequi labore soluta vel qui atque dicta itaque quas repudiandae, in cumque voluptate iste
+                    vero veritatis.</p>
+            </div>
 
-        <div class="oque-fazemos-item">
-            <img src="" alt="">
-            <h3></h3>
-            <p></p>
-        </div>
+            <div class="nossa-missao-item">
+                <img src="" alt="">
+                <h3>Tópico 2</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi enim quos fugit provident recusandae
+                    quae odio nostrum doloribus aut praesentium obcaecati inventore aspernatur nesciunt, fugiat facere
+                    et esse distinctio! At.</p>
+            </div>
 
-        <div class="oque-fazemos-item">
-            <img src="" alt="">
-            <h3></h3>
-            <p></p>
+            <div class="nossa-missao-item">
+                <img src="" alt="">
+                <h3>Tópico 3</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis expedita fuga enim, rerum labore
+                    commodi odit, omnis molestias dolore aliquid consectetur saepe, officia maxime rem id debitis error!
+                    Dolorem, ex.</p>
+            </div>
         </div>
-
-     </section>
+    </section>
     <!-- ---------------------------------------------- -->
-    
+
     <!-- Contador -->
+    <section id="contador">
+        <h1>Falta apenas</h1>
+
+        <div class="countdown">
+            <div>
+                <p id="dia"></p>
+                <span>Dias</span>
+            </div>
+            <div>
+                <p id="horas"></p>
+                <span>Horas</span>
+            </div>
+            <div>
+                <p id="minutos"></p>
+                <span>Minutos</span>
+            </div>
+            <div>
+                <p id="segundos"></p>
+                <span>Segundos</span>
+            </div>
+        </div>
+
+        <p>Para nosso culto!</p>
+    </section>
     <!-- ---------------------------------------------- -->
 
     <!-- Nossos Pastores -->
-     <section id="nossos-pastores">
+    <section id="nossos-pastores">
+        <h1>Nossos Pastores</h1>
         <article>
-            <img src="" alt="Samuhel">
-            <h1>Samuhel Lisboa</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste pariatur velit itaque obcaecati at fugiat ut ab hic officia iure. Obcaecati ad sunt error illum dolorum debitis magnam ullam quam.</p>
+            <img src="./imgs/placeholder.jpg" alt="Samuhel" id="samuhel">
+            <div class="text">
+                <h1>Samuhel Lisboa</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste pariatur velit itaque obcaecati at
+                    fugiat ut ab hic officia iure. Obcaecati ad sunt error illum dolorum debitis magnam ullam quam.</p>
+            </div>
         </article>
 
         <article>
-            <img src="" alt="Pedro">
-            <h1>Pedro Cassiano</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nobis eius voluptatum ullam eos nihil vitae aliquid asperiores necessitatibus ipsam veniam, unde, quasi quam debitis dolorum ad ratione perferendis quo?</p>
+            <div class="text">
+                <h1>Pedro Cassiano</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nobis eius voluptatum ullam eos
+                    nihil vitae aliquid asperiores necessitatibus ipsam veniam, unde, quasi quam debitis dolorum ad
+                    ratione perferendis quo?</p>
+            </div>
+            <img src="./imgs/placeholder.jpg" alt="Pedro" id="pedro">
         </article>
 
-     </section>
+    </section>
     <!-- ---------------------------------------------- -->
 
     <!-- Links -->
-     <footer>
-        <img src="" alt="Logo">
-        <div class="links">
-            <img src="" alt="Youtube">
-            <img src="" alt="Instagram">
+    <footer id="footer">
+        <div class="link">
+            <img src="./imgs/logo -abrigo.jpeg" alt="Logo">
+            <div class="links">
+                <img src="" alt="Youtube">
+                <img src="" alt="Instagram">
+            </div>
         </div>
-        
         <!-- MAPS -->
-     </footer>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116923.37590344802!2d-46.694262356640586!3d-23.6811251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce43b35011f4df%3A0xf11306277ca03f7b!2sEspa%C3%A7o%20Maranata!5e0!3m2!1spt-BR!2sbr!4v1722346930222!5m2!1spt-BR!2sbr"
+            width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
     <!-- ---------------------------------------------- -->
 
+
+    <script src="./scripts/script.js"></script>
 </body>
+
 </html>
